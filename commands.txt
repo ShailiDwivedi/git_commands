@@ -5,3 +5,6 @@ git commit -m "first commit"
 git branch -M main
 git remote add origin https://github.com/ShailiDwivedi/git_commands.git
 git push -u origin main
+
+touch index.html
+touch about.html ## this will create new blank file 
