@@ -8,3 +8,7 @@ git push -u origin main
 
 touch index.html
 touch about.html ## this will create new blank file 
+git add .
+git config --global user.name "ShailiDwivedi"
+git config --global user.email "ShailiDwivedi05@gmail.com"
+git config --list
