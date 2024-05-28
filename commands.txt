@@ -21,5 +21,7 @@ git log -p -5 # show last 5 commits
 
 for directly (folder): mkdir <name>
 q  # for quit
+clear # for clear everything
+ls # for all list of files in current folder 
 
-git commit -a -m "skipped staging area and directly commited and added"
+git commit -a -m "skipped staging area and directly commited and added" # this can work when file is already added once then modified
