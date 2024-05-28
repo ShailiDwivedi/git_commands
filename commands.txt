@@ -20,4 +20,6 @@ git log # show all commits
 git log -p -5 # show last 5 commits
 
 for directly (folder): mkdir <name>
-q  # for quit 
+q  # for quit
+
+git commit -a -m "skipped staging area and directly commited and added"
