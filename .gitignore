@@ -1,2 +1,2 @@
-/mylogs.log # ignore this file present in this folder
+# /mylogs.log # ignore this file present in this folder
 mylogs.log # ignore all files named this
