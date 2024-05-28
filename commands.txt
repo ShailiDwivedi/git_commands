@@ -15,7 +15,7 @@ git add . or git add -A
 git config --global user.name "ShailiDwivedi"
 git config --global user.email "ShailiDwivedi05@gmail.com"
 git config --list
-git checkout branchname # index.html # for revert changes before last commit
+git checkout filename # index.html # for revert changes before last commit
 git checkout contact.html
 git checkout -f # for reverting all changes after last commit
 git log # show all commits 
@@ -29,3 +29,6 @@ ls # for all list of files in current folder
 git commit -a -m "skipped staging area and directly commited and added" # this can work when file is already added once then modified
 git rm waste.css # remove this file from everywhere so use it carefully
 git rm --cached <filename> # this removes from staging only , not from harddisk 
+git status 
+git status -s #this will give only overview , working tree , staging area
+gitignore file can contains files that can be ignored
