@@ -35,3 +35,4 @@ gitignore file can contains files that can be ignored
 git branch # show branch name
 git branch feature1 #create new branch
 git checkout feature1 # for going to that branch
+git merge secondbranch # for merging branchs
