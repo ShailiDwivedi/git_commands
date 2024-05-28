@@ -1,3 +1,4 @@
+#create a new git repositry from git 
 echo "# git_commands" >> README.md
 git init
 git add README.md
@@ -6,9 +7,17 @@ git branch -M main
 git remote add origin https://github.com/ShailiDwivedi/git_commands.git
 git push -u origin main
 
-touch index.html
+touch index.html # for new file 
 touch about.html ## this will create new blank file 
-git add .
+git add . or git add -A
 git config --global user.name "ShailiDwivedi"
 git config --global user.email "ShailiDwivedi05@gmail.com"
 git config --list
+git checkout branchname # index.html # for revert changes before last commit
+git checkout contact.html
+git checkout -f # for reverting all changes after last commit
+git log # show all commits 
+git log -p -5 # show last 5 commits
+
+for directly (folder): mkdir <name>
+q  # for quit 
