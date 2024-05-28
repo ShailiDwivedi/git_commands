@@ -2,3 +2,6 @@
 # mylogs.log # ignore all files named this
 *.log 
 #this will ignore all log files
+*.cpp
+*.java
+/contact2.html/ignore.cpp
