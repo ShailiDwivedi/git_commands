@@ -27,5 +27,5 @@ clear # for clear everything
 ls # for all list of files in current folder 
 
 git commit -a -m "skipped staging area and directly commited and added" # this can work when file is already added once then modified
-git rm waste.css # remove this file from staging and device hdd both
+git rm waste.css # remove this file from everywhere so use it carefully
 git rm --cached <filename> # this removes from staging only , not from harddisk 
